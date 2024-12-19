@@ -6,13 +6,21 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build-aos": "eas build --platform android --profile development"
   },
   "dependencies": {
     "expo": "~52.0.19",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.5"
+    "react-native": "0.76.5",
+    "@expo/vector-icons": "^14.0.2",
+    "expo-image-picker": "~16.0.3",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-view-shot": "~4.0.3",
+    "expo-media-library": "~17.0.3",
+    "expo-dev-client": "~5.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
